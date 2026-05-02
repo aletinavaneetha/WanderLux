@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Appointment</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+<h2>WanderLux</h2>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="calculator.html">Calculator</a></li>
+<li><a href="appointment.html">Appointment</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+<section>
+<h1>Book Appointment</h1>
+
+<form onsubmit="return validateForm()">
+<input type="text" placeholder="Name" required>
+<input type="email" placeholder="Email" required>
+<input type="tel" placeholder="Phone" required>
+<input type="date" required>
+<textarea placeholder="Message"></textarea>
+
+<button>Submit</button>
+</form>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
